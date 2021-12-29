@@ -87,9 +87,7 @@ def part_two():
                     i += 1
             else:
                 xMin = min(x1,x2)
-                xMax = max(x1,x2)
                 yMin = min(y1,y2)
-                yMax = max(y1,y2)
                 i = 0
                 for p in range(xMin, xMax+1):
                     if x1 == xMin:
